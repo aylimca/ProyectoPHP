@@ -1,0 +1,143 @@
+body {
+    background: #f8e1eb;
+    text-align: justify;
+    font-family: "Poppins", Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    margin: 40px auto;
+    width: 800px;
+    background: #fff;
+    border: solid 1px #f5a9b8;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+#header {
+    background: #f5a9b8;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 12px 12px 0 0;
+}
+
+#header h1 {
+    font-size: 26px;
+    margin: 0;
+}
+
+#header h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+#content {
+    background: white;
+    clear: left;
+    padding: 20px;
+    border-radius: 0 0 12px 12px;
+}
+
+#content h2 {
+    color: #f06292;
+    font-size: 22px;
+    margin: 0 0 .5em;
+}
+
+#aviso {
+    background: #fce4ec;
+    color: #d81b60;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+li {
+    padding: 12px;
+    transition: background 0.3s;
+}
+
+li:hover {
+    background: #fce4ec;
+    border-radius: 8px;
+}
+
+a {
+    color: #d81b60;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #880e4f;
+}
+
+textarea, input {
+    resize: none;
+    border: 1px solid #f5a9b8;
+    border-radius: 6px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background: #f5a9b8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #d81b60;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid #f8bbd0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #f8bbd0;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background: #fce4ec;
+}
+
+#footer {
+    color: white;
+    background: #f5a9b8;
+    text-align: center;
+    padding: 15px;
+    border-radius: 0 0 12px 12px;
+    font-size: 14px;
+}
+
+img {
+    border-radius: 12px;
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
